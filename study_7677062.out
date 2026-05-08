@@ -1,0 +1,83 @@
+Job ID: 7677062
+Start time: Thu Apr 30 23:05:28 EDT 2026
+Node: gh103
+GPU: 0
+Found 1 config(s) to process.
+
+============================================================
+Config 1/1: D22RYC5Z58coDhr9Wc6PXqz
+============================================================
+  [A] cached
+      f_B = 0.00452678
+      K_theta_avg = 7.976e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.468717
+  fB_A=0.004527  fB_B=0.4687
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1  fB_target=0.00805  (198.4 s)
+      f_B=1.172e+14  fin_f=8485406084.4197  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.01431  (67.5 s)
+      f_B=6.982e+13  fin_f=8485406084.4183  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.02546  (54.6 s)
+      f_B=3.938e+13  fin_f=8485406084.4197  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.04527  (59.7 s)
+      f_B=4.067e+14  fin_f=8485406084.4049  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.4687  (46.4 s (JIT compile + run))
+      f_B=6.128e+20  fin_f=1050724551015059.7500  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.8335  (20.8 s)
+      f_B=1.476e+21  fin_f=1050724551015059.7500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/I_low_curvature_filament_i1.npy
+    i=2  fB_target=1.482  (20.5 s)
+      f_B=1.324e+21  fin_f=1050724551015059.7500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/I_low_curvature_filament_i2.npy
+    i=3  fB_target=2.636  (20.8 s)
+      f_B=6.312e+19  fin_f=1050724550222611.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/I_low_curvature_filament_i3.npy
+    i=4  fB_target=4.687  (20.7 s)
+      f_B=6.312e+19  fin_f=1050724550222611.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.4687  (180.4 s (JIT compile + run))
+      f_B=1.048e+09  fin_f=81950563.8287  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.8335  (144.1 s)
+      f_B=2.292e+09  fin_f=81950563.8240  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/K_low_max_force_filament_i1.npy
+    i=2  fB_target=1.482  (168.6 s)
+      f_B=4.525e+09  fin_f=81950563.2661  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/K_low_max_force_filament_i2.npy
+    i=3  fB_target=2.636  (29.5 s)
+      f_B=2.468  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/K_low_max_force_filament_i3.npy
+    i=4  fB_target=4.687  (29.4 s)
+      f_B=2.455  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D22RYC5Z58coDhr9Wc6PXqz/K_low_max_force_filament_i4.npy
+
+
+All configs complete.
+End time: Thu Apr 30 23:23:47 EDT 2026
+Job completed!

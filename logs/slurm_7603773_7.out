@@ -1,0 +1,10 @@
+Job ID: 7603773
+Array task: 7 / 8
+Nodes: 1
+Tasks: 
+CPUs per task: 1
+Start time: Thu Apr 30 02:46:24 EDT 2026
+Args loaded: Namespace(device_scaling='stellaris', num_config=500, nfp=3, task_id=7, num_tasks=8)
+Saving to /scratch/lct9592/quadcoil_sweep/../output_constellaration_nfp=3
+End time: Thu Apr 30 02:47:03 EDT 2026
+Job completed!

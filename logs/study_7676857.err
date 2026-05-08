@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/lct9592/quadcoil_study.py", line 20, in <module>
+    import jax
+ModuleNotFoundError: No module named 'jax'

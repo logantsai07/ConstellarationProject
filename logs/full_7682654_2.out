@@ -1,0 +1,11 @@
+Job ID: 7682657
+Array task: 2 / 16
+Start time: Thu Apr 30 23:42:59 EDT 2026
+Node: gh105
+GPU: 0
+Found 32 config(s) to process.
+
+============================================================
+Config 1/32: D24pCPJ8zzVNCNvyQR3Lrjr
+============================================================
+  [A] Nescoil (minimise f_B) ...

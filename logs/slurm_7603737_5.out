@@ -1,0 +1,13 @@
+Job ID: 7603744
+Array task: 5 / 8
+Nodes: 1
+Tasks: 
+CPUs per task: 1
+Start time: Thu Apr 30 02:42:03 EDT 2026
+Args loaded: Namespace(device_scaling='stellaris', num_config=500, nfp=3, task_id=5, num_tasks=8)
+Saving to /scratch/lct9592/quadcoil_sweep/../output_constellaration_nfp=3
+Saved self to /scratch/lct9592/output_constellaration_nfp=3/src
+Number of valid cases: 1906
+Array task 5/8: processing shard 5 of 8
+End time: Thu Apr 30 02:43:48 EDT 2026
+Job completed!

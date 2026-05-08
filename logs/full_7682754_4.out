@@ -1,0 +1,1413 @@
+Job ID: 7682754
+Array task: 4 / 5
+Start time: Thu Apr 30 23:45:01 EDT 2026
+Node: gh115
+GPU: 0
+Found 102 config(s) to process.
+
+============================================================
+Config 1/102: D29GJcMRumcTv2fxPv3JQeQ
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 3.77225e-05   (15.1 s)
+      K_theta_avg = 5.574e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0333503   (15.2 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/nescoil_B.npy
+  fB_A=3.772e-05  fB_B=0.03335
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=3.772e-05  (18.8 s (JIT compile + run))
+      f_B=0.2704  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/C_sparse_dipole_i0.npy
+    i=1  fB_target=6.708e-05  (1.4 s)
+      f_B=0.2704  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0001193  (1.4 s)
+      f_B=0.2704  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0002121  (1.4 s)
+      f_B=0.2704  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0003772  (1.4 s)
+      f_B=0.2704  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=3.772e-05  (17.6 s (JIT compile + run))
+      f_B=0.2704  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/D_thin_dipole_i0.npy
+    i=1  fB_target=6.708e-05  (1.7 s)
+      f_B=0.2704  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0001193  (1.6 s)
+      f_B=0.2704  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0002121  (1.7 s)
+      f_B=0.2704  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0003772  (1.8 s)
+      f_B=0.2704  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=3.772e-05  (107.3 s (JIT compile + run))
+      f_B=1.801e+20  fin_f=3537181828178.6553  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=6.708e-05  (66.8 s)
+      f_B=4.679e+20  fin_f=3537181828178.6533  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0001193  (57.7 s)
+      f_B=2.829e+18  fin_f=3537181828178.6475  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0002121  (74.5 s)
+      f_B=1.233e+20  fin_f=3537181828178.6289  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0003772  (75.3 s)
+      f_B=6.428e+19  fin_f=3537181828178.4307  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.03335  (47.1 s (JIT compile + run))
+      f_B=4.775e+22  fin_f=8744517219185523.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.05931  (20.4 s)
+      f_B=1.998e+22  fin_f=8744517216701714.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.1055  (20.4 s)
+      f_B=1.793e+22  fin_f=8744517203960705.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.1875  (19.9 s)
+      f_B=3.615e+22  fin_f=8744517155706727.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.3335  (126.7 s)
+      f_B=0.2702  fin_f=2629228860980281.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.03335  (138.3 s (JIT compile + run))
+      f_B=1.396e+15  fin_f=4000907302.3843  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.05931  (54.3 s)
+      f_B=5.557e+14  fin_f=4000907301.0123  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.1055  (87.7 s)
+      f_B=3.34e+14  fin_f=4000907295.7302  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.1875  (93.1 s)
+      f_B=1.722e+15  fin_f=4000907108.1347  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.3335  (64.7 s)
+      f_B=1.485e+12  fin_f=277961899.2008  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D29GJcMRumcTv2fxPv3JQeQ/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 2/102: D2e2TQQiy3um7JKiVxiWesZ
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00288594   (6.9 s)
+      K_theta_avg = 5.868e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.116219   (3.4 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/nescoil_B.npy
+  fB_A=0.002886  fB_B=0.1162
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.002886  (1.6 s (JIT compile + run))
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.005132  (1.5 s)
+      f_B=0.4634  fin_f=0.0000  niter=6
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.009126  (1.4 s)
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.01623  (1.4 s)
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.02886  (1.5 s)
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.002886  (1.9 s (JIT compile + run))
+      f_B=0.4634  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/D_thin_dipole_i0.npy
+    i=1  fB_target=0.005132  (1.9 s)
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/D_thin_dipole_i1.npy
+    i=2  fB_target=0.009126  (1.6 s)
+      f_B=0.4634  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/D_thin_dipole_i2.npy
+    i=3  fB_target=0.01623  (1.6 s)
+      f_B=0.4634  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/D_thin_dipole_i3.npy
+    i=4  fB_target=0.02886  (1.7 s)
+      f_B=0.4634  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.002886  (387.5 s (JIT compile + run))
+      f_B=9.778e+15  fin_f=7513383853491.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.005132  (388.0 s)
+      f_B=9.861e+15  fin_f=7513383853487.3008  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.009126  (389.6 s)
+      f_B=1.004e+06  fin_f=7513383853492.6973  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.01623  (388.8 s)
+      f_B=1.03e+16  fin_f=7513383853437.2520  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.02886  (389.7 s)
+      f_B=1.086e+16  fin_f=7513383853311.7393  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.1162  (243.8 s (JIT compile + run))
+      f_B=3.228e+24  fin_f=47182005073142832.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.2067  (244.3 s)
+      f_B=1.564e+26  fin_f=47182005061452864.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.3675  (244.7 s)
+      f_B=4.269e+25  fin_f=47182005058300824.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.6535  (244.3 s)
+      f_B=1.684e+27  fin_f=47182005058561448.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/I_low_curvature_filament_i3.npy
+    i=4  fB_target=1.162  (244.0 s)
+      f_B=1.684e+27  fin_f=47182005058561448.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.1162  (390.9 s (JIT compile + run))
+      f_B=1.087e+13  fin_f=186572086979.6579  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.2067  (392.4 s)
+      f_B=2.205e+13  fin_f=186572086661.7135  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.3675  (389.7 s)
+      f_B=8.599e+13  fin_f=186572082384.2439  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.6535  (35.9 s)
+      f_B=0.6288  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/K_low_max_force_filament_i3.npy
+    i=4  fB_target=1.162  (30.9 s)
+      f_B=0.3762  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2e2TQQiy3um7JKiVxiWesZ/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 3/102: D2zjJWKuZmWckWTGfyDm8C8
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00663748   (6.2 s)
+      K_theta_avg = 8.278e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.398844   (4.1 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/nescoil_B.npy
+  fB_A=0.006637  fB_B=0.3988
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.006637  (1.5 s (JIT compile + run))
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.0118  (1.4 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.02099  (1.4 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.03733  (1.5 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.06637  (1.5 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.006637  (1.7 s (JIT compile + run))
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/D_thin_dipole_i0.npy
+    i=1  fB_target=0.0118  (1.6 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/D_thin_dipole_i1.npy
+    i=2  fB_target=0.02099  (1.6 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/D_thin_dipole_i2.npy
+    i=3  fB_target=0.03733  (1.6 s)
+      f_B=2.245  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/D_thin_dipole_i3.npy
+    i=4  fB_target=0.06637  (1.6 s)
+      f_B=2.245  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.006637  (399.7 s (JIT compile + run))
+      f_B=1.682e+12  fin_f=1014557603.1972  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.0118  (399.7 s)
+      f_B=2.493e+12  fin_f=1014557603.1973  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.02099  (398.1 s)
+      f_B=9.311e+08  fin_f=1014557603.1968  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.03733  (398.3 s)
+      f_B=2.1e+08  fin_f=1014557603.1956  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.06637  (399.2 s)
+      f_B=3.923e+12  fin_f=1014557603.1921  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.3988  (221.7 s (JIT compile + run))
+      f_B=1.212e+19  fin_f=422449999230370.3125  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.7093  (176.0 s)
+      f_B=1.112e+20  fin_f=422449999017324.8125  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/I_low_curvature_filament_i1.npy
+    i=2  fB_target=1.261  (222.9 s)
+      f_B=4.246e+21  fin_f=422449997879378.3750  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/I_low_curvature_filament_i2.npy
+    i=3  fB_target=2.243  (198.9 s)
+      f_B=2.726e+19  fin_f=422449999306420.4375  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/I_low_curvature_filament_i3.npy
+    i=4  fB_target=3.988  (17.9 s)
+      f_B=2.242  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.3988  (401.8 s (JIT compile + run))
+      f_B=8.808e+08  fin_f=16884063.5324  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.7093  (402.0 s)
+      f_B=3.267e+08  fin_f=16884063.5198  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/K_low_max_force_filament_i1.npy
+    i=2  fB_target=1.261  (400.4 s)
+      f_B=3.665e+08  fin_f=16884063.5324  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/K_low_max_force_filament_i2.npy
+    i=3  fB_target=2.243  (401.7 s)
+      f_B=4.127e+08  fin_f=16884060.6264  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/K_low_max_force_filament_i3.npy
+    i=4  fB_target=3.988  (402.3 s)
+      f_B=2.083e+09  fin_f=10462896.2381  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D2zjJWKuZmWckWTGfyDm8C8/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 4/102: D3STs9qGPrQsNZ6bTXLHd3K
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.012137   (6.1 s)
+      K_theta_avg = 8.985e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.476929   (7.3 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/nescoil_B.npy
+  fB_A=0.01214  fB_B=0.4769
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.01214  (1.5 s (JIT compile + run))
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.02158  (1.5 s)
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.03838  (1.5 s)
+      f_B=2.922  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.06825  (1.4 s)
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.1214  (1.4 s)
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.01214  (1.7 s (JIT compile + run))
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/D_thin_dipole_i0.npy
+    i=1  fB_target=0.02158  (1.7 s)
+      f_B=2.922  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/D_thin_dipole_i1.npy
+    i=2  fB_target=0.03838  (1.7 s)
+      f_B=2.922  fin_f=0.0000  niter=7
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/D_thin_dipole_i2.npy
+    i=3  fB_target=0.06825  (1.6 s)
+      f_B=2.922  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/D_thin_dipole_i3.npy
+    i=4  fB_target=0.1214  (1.6 s)
+      f_B=2.922  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.01214  (135.2 s (JIT compile + run))
+      f_B=7.318e+13  fin_f=3667763969.9267  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.02158  (119.0 s)
+      f_B=1.262e+14  fin_f=3667763969.9256  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.03838  (48.8 s)
+      f_B=1.687e+14  fin_f=3667763969.9219  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.06825  (134.6 s)
+      f_B=3.353e+13  fin_f=3667763969.9116  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.1214  (130.8 s)
+      f_B=7.435e+13  fin_f=3667763969.8809  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.4769  (22.5 s (JIT compile + run))
+      f_B=1.18e+21  fin_f=1681221854956160.5000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.8481  (22.1 s)
+      f_B=2.175e+21  fin_f=1681221854699406.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/I_low_curvature_filament_i1.npy
+    i=2  fB_target=1.508  (21.9 s)
+      f_B=3.705e+20  fin_f=1681221853422738.7500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/I_low_curvature_filament_i2.npy
+    i=3  fB_target=2.682  (21.9 s)
+      f_B=1.524e+21  fin_f=1681221824769076.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/I_low_curvature_filament_i3.npy
+    i=4  fB_target=4.769  (21.8 s)
+      f_B=5.997e+21  fin_f=1681221854527451.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.4769  (81.6 s (JIT compile + run))
+      f_B=4.521e+10  fin_f=93337749.2150  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.8481  (132.2 s)
+      f_B=1.124e+10  fin_f=93337749.2326  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/K_low_max_force_filament_i1.npy
+    i=2  fB_target=1.508  (132.4 s)
+      f_B=2.693e+10  fin_f=93337748.4855  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/K_low_max_force_filament_i2.npy
+    i=3  fB_target=2.682  (26.8 s)
+      f_B=3.731  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/K_low_max_force_filament_i3.npy
+    i=4  fB_target=4.769  (31.6 s)
+      f_B=4.097  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3STs9qGPrQsNZ6bTXLHd3K/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 5/102: D3dyZm3FkLXwWWMMEbjeDgN
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.0325838   (6.4 s)
+      K_theta_avg = 1.417e+07  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.498324   (3.0 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/nescoil_B.npy
+  fB_A=0.03258  fB_B=0.4983
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.03258  (249.1 s (JIT compile + run))
+      f_B=3.275e+04  fin_f=25756998.9819  niter=19
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.05794  (257.2 s)
+      f_B=2.625e+04  fin_f=27083519.3800  niter=16
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.103  (1.7 s)
+      f_B=23.57  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.1832  (1.6 s)
+      f_B=23.57  fin_f=0.0000  niter=7
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.3258  (1.6 s)
+      f_B=23.57  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.03258  (309.8 s (JIT compile + run))
+      f_B=6974  fin_f=2133037.4632  niter=113
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/D_thin_dipole_i0.npy
+    i=1  fB_target=0.05794  (309.2 s)
+      f_B=828.6  fin_f=1905786.4907  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/D_thin_dipole_i1.npy
+    i=2  fB_target=0.103  (320.1 s)
+      f_B=8440  fin_f=1933411.4281  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/D_thin_dipole_i2.npy
+    i=3  fB_target=0.1832  (289.5 s)
+      f_B=8.05e+11  fin_f=3879789571.6307  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/D_thin_dipole_i3.npy
+    i=4  fB_target=0.3258  (306.5 s)
+      f_B=4274  fin_f=2372247.4509  niter=30
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.03258  (76.3 s (JIT compile + run))
+      f_B=5.829e+15  fin_f=2221894816.7626  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.05794  (119.6 s)
+      f_B=2.069e+16  fin_f=2221894816.7626  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.103  (150.7 s)
+      f_B=5.017e+15  fin_f=2221894816.7626  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.1832  (94.0 s)
+      f_B=7.564e+16  fin_f=2221894816.7626  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.3258  (79.7 s)
+      f_B=1.838e+16  fin_f=2221894816.7626  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.4983  (22.3 s (JIT compile + run))
+      f_B=2.583e+28  fin_f=4587475506469186.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.8862  (88.3 s)
+      f_B=4.364e+29  fin_f=4587475506468298.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/I_low_curvature_filament_i1.npy
+    i=2  fB_target=1.576  (22.2 s)
+      f_B=4.23e+27  fin_f=4587475506465394.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/I_low_curvature_filament_i2.npy
+    i=3  fB_target=2.802  (21.4 s)
+      f_B=3.346e+28  fin_f=4587475506455622.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/I_low_curvature_filament_i3.npy
+    i=4  fB_target=4.983  (20.9 s)
+      f_B=1.876e+28  fin_f=4587475506419475.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.4983  (60.8 s (JIT compile + run))
+      f_B=3.187e+13  fin_f=145282689.4618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.8862  (83.0 s)
+      f_B=1.392e+13  fin_f=145282689.4618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/K_low_max_force_filament_i1.npy
+    i=2  fB_target=1.576  (114.0 s)
+      f_B=2.925e+13  fin_f=145282689.4618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/K_low_max_force_filament_i2.npy
+    i=3  fB_target=2.802  (139.8 s)
+      f_B=6.361e+13  fin_f=145282689.4617  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/K_low_max_force_filament_i3.npy
+    i=4  fB_target=4.983  (78.4 s)
+      f_B=7.689e+14  fin_f=145282689.4617  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3dyZm3FkLXwWWMMEbjeDgN/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 6/102: D3xnf6DCghoMSu5dsEP2j6L
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.000658145   (6.1 s)
+      K_theta_avg = 5.477e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0581323   (2.7 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/nescoil_B.npy
+  fB_A=0.0006581  fB_B=0.05813
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.0006581  (1.5 s (JIT compile + run))
+      f_B=0.2306  fin_f=0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.00117  (1.5 s)
+      f_B=0.2306  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.002081  (1.6 s)
+      f_B=0.2306  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.003701  (1.6 s)
+      f_B=0.2306  fin_f=0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.006581  (1.6 s)
+      f_B=0.2306  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.0006581  (1.6 s (JIT compile + run))
+      f_B=0.2306  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/D_thin_dipole_i0.npy
+    i=1  fB_target=0.00117  (1.6 s)
+      f_B=0.2306  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/D_thin_dipole_i1.npy
+    i=2  fB_target=0.002081  (1.8 s)
+      f_B=0.2306  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/D_thin_dipole_i2.npy
+    i=3  fB_target=0.003701  (1.8 s)
+      f_B=0.2306  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/D_thin_dipole_i3.npy
+    i=4  fB_target=0.006581  (1.9 s)
+      f_B=0.2306  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.0006581  (396.3 s (JIT compile + run))
+      f_B=1.011e+10  fin_f=8150195138.2963  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.00117  (396.6 s)
+      f_B=6.445e+09  fin_f=8150195138.2963  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.002081  (399.5 s)
+      f_B=8.763e+12  fin_f=8150195138.2888  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.003701  (399.1 s)
+      f_B=1.092e+13  fin_f=8150195138.2722  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.006581  (400.3 s)
+      f_B=9.434e+12  fin_f=8150195138.2188  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.05813  (242.8 s (JIT compile + run))
+      f_B=1.049e+18  fin_f=542369922854322.7500  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.1034  (200.1 s)
+      f_B=4.102e+21  fin_f=542369921333725.4375  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.1838  (245.7 s)
+      f_B=1.773e+21  fin_f=542369896908971.9375  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.3269  (223.2 s)
+      f_B=1.57e+21  fin_f=535956190330589.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.5813  (222.2 s)
+      f_B=1.57e+21  fin_f=535956190330589.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.05813  (86.1 s (JIT compile + run))
+      f_B=1.365e+09  fin_f=92272403.0174  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.1034  (402.6 s)
+      f_B=1.107e+09  fin_f=92272402.6365  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.1838  (313.1 s)
+      f_B=1.338e+10  fin_f=92272403.0180  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.3269  (29.4 s)
+      f_B=0.2109  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.5813  (29.3 s)
+      f_B=0.2109  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D3xnf6DCghoMSu5dsEP2j6L/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 7/102: D4QFF45Vomb4rpMoeLFFy8y
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 1.20635e-05   (6.2 s)
+      K_theta_avg = 5.214e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0133569   (2.2 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/nescoil_B.npy
+  fB_A=1.206e-05  fB_B=0.01336
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=1.206e-05  (1.5 s (JIT compile + run))
+      f_B=0.01715  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/C_sparse_dipole_i0.npy
+    i=1  fB_target=2.145e-05  (1.4 s)
+      f_B=0.01715  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/C_sparse_dipole_i1.npy
+    i=2  fB_target=3.815e-05  (1.5 s)
+      f_B=0.01715  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/C_sparse_dipole_i2.npy
+    i=3  fB_target=6.784e-05  (1.6 s)
+      f_B=0.01715  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0001206  (1.7 s)
+      f_B=0.01715  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=1.206e-05  (1.8 s (JIT compile + run))
+      f_B=0.01715  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/D_thin_dipole_i0.npy
+    i=1  fB_target=2.145e-05  (1.9 s)
+      f_B=0.01715  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/D_thin_dipole_i1.npy
+    i=2  fB_target=3.815e-05  (1.9 s)
+      f_B=0.01715  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/D_thin_dipole_i2.npy
+    i=3  fB_target=6.784e-05  (1.9 s)
+      f_B=0.01715  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0001206  (2.0 s)
+      f_B=0.01715  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=1.206e-05  (396.2 s (JIT compile + run))
+      f_B=3.139e+12  fin_f=2528177026188.5093  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=2.145e-05  (145.3 s)
+      f_B=8.055e+17  fin_f=2528177026188.5093  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=3.815e-05  (115.1 s)
+      f_B=1.637e+19  fin_f=2528177026188.5093  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=6.784e-05  (277.9 s)
+      f_B=1.187e+17  fin_f=2528177026188.5093  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0001206  (108.0 s)
+      f_B=1.908e+19  fin_f=2528177026188.5093  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.01336  (25.3 s (JIT compile + run))
+      f_B=1.784e+24  fin_f=29905831496388828.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.02375  (21.7 s)
+      f_B=7.193e+20  fin_f=29905831497860752.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.04224  (21.7 s)
+      f_B=7.193e+20  fin_f=29905831497860752.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.07511  (21.6 s)
+      f_B=7.193e+20  fin_f=29905831497860752.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.1336  (21.6 s)
+      f_B=7.193e+20  fin_f=29905831497860752.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.01336  (257.0 s (JIT compile + run))
+      f_B=1.456e+12  fin_f=2283353208.8273  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.02375  (28.1 s)
+      f_B=0.06375  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.04224  (28.4 s)
+      f_B=0.0639  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.07511  (28.1 s)
+      f_B=0.06263  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.1336  (28.1 s)
+      f_B=0.06263  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4QFF45Vomb4rpMoeLFFy8y/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 8/102: D4mstYFKZJBxViAitK8dHJ2
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.0456371   (6.6 s)
+      K_theta_avg = 7.32e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.412374   (6.9 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/nescoil_B.npy
+  fB_A=0.04564  fB_B=0.4124
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.04564  (228.1 s (JIT compile + run))
+      f_B=7.707e+07  fin_f=4979387075.0095  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.08116  (1.7 s)
+      f_B=2.59  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.1443  (1.4 s)
+      f_B=2.59  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.2566  (1.4 s)
+      f_B=2.59  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.4564  (1.3 s)
+      f_B=2.59  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.04564  (285.5 s (JIT compile + run))
+      f_B=2.846e+10  fin_f=57517394545.7493  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/D_thin_dipole_i0.npy
+    i=1  fB_target=0.08116  (263.2 s)
+      f_B=1.007e+09  fin_f=11737621550693.9434  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/D_thin_dipole_i1.npy
+    i=2  fB_target=0.1443  (1.9 s)
+      f_B=2.59  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/D_thin_dipole_i2.npy
+    i=3  fB_target=0.2566  (1.9 s)
+      f_B=2.59  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/D_thin_dipole_i3.npy
+    i=4  fB_target=0.4564  (1.6 s)
+      f_B=2.59  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.04564  (393.8 s (JIT compile + run))
+      f_B=5.022e+10  fin_f=111485865.1603  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.08116  (396.9 s)
+      f_B=8.87e+10  fin_f=111485865.1603  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.1443  (398.4 s)
+      f_B=6.925e+11  fin_f=111485865.1603  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.2566  (397.6 s)
+      f_B=5.227e+10  fin_f=111485865.1603  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.4564  (398.4 s)
+      f_B=3.056e+11  fin_f=111485865.1603  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.4124  (246.5 s (JIT compile + run))
+      f_B=5.551e+24  fin_f=811820048324548.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.7333  (245.7 s)
+      f_B=6.395e+21  fin_f=811820047268892.8750  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/I_low_curvature_filament_i1.npy
+    i=2  fB_target=1.304  (246.5 s)
+      f_B=1.401e+24  fin_f=811820046891797.8750  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/I_low_curvature_filament_i2.npy
+    i=3  fB_target=2.319  (245.6 s)
+      f_B=2.016e+42  fin_f=-1054277690415931260403712.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/I_low_curvature_filament_i3.npy
+    i=4  fB_target=4.124  (224.6 s)
+      f_B=7.717e+23  fin_f=801329771130833.7500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.4124  (399.2 s (JIT compile + run))
+      f_B=7.334e+09  fin_f=12338057.1781  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.7333  (397.1 s)
+      f_B=7.408e+06  fin_f=12338057.1781  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/K_low_max_force_filament_i1.npy
+    i=2  fB_target=1.304  (400.3 s)
+      f_B=2.383e+08  fin_f=12338057.1781  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/K_low_max_force_filament_i2.npy
+    i=3  fB_target=2.319  (397.5 s)
+      f_B=2.463e+07  fin_f=12338057.1778  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/K_low_max_force_filament_i3.npy
+    i=4  fB_target=4.124  (29.2 s)
+      f_B=3.229  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D4mstYFKZJBxViAitK8dHJ2/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 9/102: D5ECfZqbmsDWcDXB3UHhsxC
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00124972   (6.1 s)
+      K_theta_avg = 5.571e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.137356   (2.8 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/nescoil_B.npy
+  fB_A=0.00125  fB_B=0.1374
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.00125  (1.4 s (JIT compile + run))
+      f_B=0.3913  fin_f=0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.002222  (1.4 s)
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.003952  (1.6 s)
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.007028  (1.6 s)
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0125  (1.6 s)
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.00125  (1.6 s (JIT compile + run))
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/D_thin_dipole_i0.npy
+    i=1  fB_target=0.002222  (1.6 s)
+      f_B=0.3913  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/D_thin_dipole_i1.npy
+    i=2  fB_target=0.003952  (1.9 s)
+      f_B=0.3913  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/D_thin_dipole_i2.npy
+    i=3  fB_target=0.007028  (1.9 s)
+      f_B=0.3913  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0125  (2.0 s)
+      f_B=0.3913  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.00125  (144.7 s (JIT compile + run))
+      f_B=3.547e+12  fin_f=4654563355.7339  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.002222  (393.6 s)
+      f_B=2.376e+09  fin_f=4654563355.7325  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.003952  (395.6 s)
+      f_B=1.935e+09  fin_f=4654563355.7280  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.007028  (394.0 s)
+      f_B=4.102e+09  fin_f=4654563355.7137  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0125  (394.2 s)
+      f_B=1.149e+10  fin_f=4654563355.6676  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.1374  (243.8 s (JIT compile + run))
+      f_B=9.585e+20  fin_f=492852353391013.4375  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.2443  (242.9 s)
+      f_B=4.252e+17  fin_f=492852345332025.2500  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.4344  (221.0 s)
+      f_B=2.804e+17  fin_f=485128731477964.3125  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.7724  (220.0 s)
+      f_B=2.804e+17  fin_f=485128731477964.3125  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/I_low_curvature_filament_i3.npy
+    i=4  fB_target=1.374  (220.8 s)
+      f_B=2.804e+17  fin_f=485128731477964.3125  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.1374  (396.3 s (JIT compile + run))
+      f_B=1.597e+10  fin_f=42349149.3908  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.2443  (395.6 s)
+      f_B=7.555e+05  fin_f=42349149.4748  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.4344  (29.9 s)
+      f_B=0.5416  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.7724  (29.7 s)
+      f_B=0.5889  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/K_low_max_force_filament_i3.npy
+    i=4  fB_target=1.374  (30.0 s)
+      f_B=0.5889  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5ECfZqbmsDWcDXB3UHhsxC/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 10/102: D5X3mgLBWxyEdmsWyr8neBE
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.000138271   (6.1 s)
+      K_theta_avg = 5.539e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0243965   (2.4 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/nescoil_B.npy
+  fB_A=0.0001383  fB_B=0.0244
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.0001383  (1.4 s (JIT compile + run))
+      f_B=0.1039  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.0002459  (1.5 s)
+      f_B=0.1039  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0004373  (1.5 s)
+      f_B=0.1039  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0007776  (1.5 s)
+      f_B=0.1039  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.001383  (1.6 s)
+      f_B=0.1039  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.0001383  (1.6 s (JIT compile + run))
+      f_B=0.1039  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/D_thin_dipole_i0.npy
+    i=1  fB_target=0.0002459  (1.8 s)
+      f_B=0.1039  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0004373  (1.8 s)
+      f_B=0.1039  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0007776  (1.9 s)
+      f_B=0.1039  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/D_thin_dipole_i3.npy
+    i=4  fB_target=0.001383  (1.9 s)
+      f_B=0.1039  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.0001383  (77.6 s (JIT compile + run))
+      f_B=4.95e+15  fin_f=85895954859.8343  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.0002459  (84.1 s)
+      f_B=1.44e+16  fin_f=85895954859.8343  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0004373  (83.1 s)
+      f_B=4.14e+15  fin_f=85895954859.8343  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0007776  (84.0 s)
+      f_B=1.028e+16  fin_f=85895954859.8343  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.001383  (79.3 s)
+      f_B=1.473e+15  fin_f=85895954859.8343  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.0244  (21.3 s (JIT compile + run))
+      f_B=3.112e+26  fin_f=86832256530907488.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.04338  (20.5 s)
+      f_B=4.225e+25  fin_f=86832256348986352.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.07715  (21.1 s)
+      f_B=3.903e+27  fin_f=86832254878278272.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.1372  (0.8 s)
+      f_B=0.1039  fin_f=86832256588592448.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.244  (0.8 s)
+      f_B=0.1039  fin_f=86832256588592448.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.0244  (86.3 s (JIT compile + run))
+      f_B=1.007e+11  fin_f=486829484.5137  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.04338  (69.8 s)
+      f_B=1.278e+11  fin_f=486829484.5137  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.07715  (65.9 s)
+      f_B=6.203e+10  fin_f=486829484.5137  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.1372  (101.0 s)
+      f_B=5.811e+10  fin_f=199585792.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.244  (101.2 s)
+      f_B=5.811e+10  fin_f=199585792.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5X3mgLBWxyEdmsWyr8neBE/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 11/102: D5hWHTiGPsV8Bcv5jS4AweU
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.009513   (6.1 s)
+      K_theta_avg = 6.945e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.848786   (3.2 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/nescoil_B.npy
+  fB_A=0.009513  fB_B=0.8488
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.009513  (1.7 s (JIT compile + run))
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.01692  (1.8 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.03008  (1.7 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0535  (1.6 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.09513  (1.5 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.009513  (2.2 s (JIT compile + run))
+      f_B=5.918  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/D_thin_dipole_i0.npy
+    i=1  fB_target=0.01692  (317.9 s)
+      f_B=3346  fin_f=3480540.9308  niter=682
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/D_thin_dipole_i1.npy
+    i=2  fB_target=0.03008  (2.0 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0535  (2.0 s)
+      f_B=5.918  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/D_thin_dipole_i3.npy
+    i=4  fB_target=0.09513  (1.8 s)
+      f_B=5.918  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.009513  (63.3 s (JIT compile + run))
+      f_B=1.156e+13  fin_f=841095953.3474  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.01692  (41.7 s)
+      f_B=2.809e+14  fin_f=841095953.3474  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.03008  (75.9 s)
+      f_B=1.157e+15  fin_f=841095953.3474  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0535  (62.1 s)
+      f_B=5.097e+14  fin_f=841095953.3474  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.09513  (80.2 s)
+      f_B=4.608e+15  fin_f=841095953.3474  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.8488  (245.5 s (JIT compile + run))
+      f_B=1.875e+20  fin_f=105225978672325.8438  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/I_low_curvature_filament_i0.npy
+    i=1  fB_target=1.509  (246.5 s)
+      f_B=3.399e+22  fin_f=105225978672325.8438  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/I_low_curvature_filament_i1.npy
+    i=2  fB_target=2.684  (224.6 s)
+      f_B=2.739e+23  fin_f=105225978672325.8438  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/I_low_curvature_filament_i2.npy
+    i=3  fB_target=4.773  (223.9 s)
+      f_B=1.494e+23  fin_f=105225978672325.8438  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/I_low_curvature_filament_i3.npy
+    i=4  fB_target=8.488  (202.1 s)
+      f_B=3.344e+23  fin_f=102593778809455.5625  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.8488  (126.2 s (JIT compile + run))
+      f_B=1.836e+11  fin_f=9426811.9673  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/K_low_max_force_filament_i0.npy
+    i=1  fB_target=1.509  (74.9 s)
+      f_B=3.064e+11  fin_f=9426811.9649  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/K_low_max_force_filament_i1.npy
+    i=2  fB_target=2.684  (111.7 s)
+      f_B=1.748e+10  fin_f=9426811.9678  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/K_low_max_force_filament_i2.npy
+    i=3  fB_target=4.773  (133.6 s)
+      f_B=1.11e+11  fin_f=9426803.6880  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/K_low_max_force_filament_i3.npy
+    i=4  fB_target=8.488  (36.6 s)
+      f_B=7.334  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D5hWHTiGPsV8Bcv5jS4AweU/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 12/102: D6MzKWkuMjKGjjNFaFAVPNT
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00910874   (6.2 s)
+      K_theta_avg = 5.6e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.097058   (3.5 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/nescoil_B.npy
+  fB_A=0.009109  fB_B=0.09706
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.009109  (1.5 s (JIT compile + run))
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.0162  (1.5 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0288  (1.5 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.05122  (1.5 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.09109  (1.6 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.009109  (1.8 s (JIT compile + run))
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/D_thin_dipole_i0.npy
+    i=1  fB_target=0.0162  (1.8 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0288  (1.7 s)
+      f_B=0.4791  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/D_thin_dipole_i2.npy
+    i=3  fB_target=0.05122  (1.7 s)
+      f_B=0.4791  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/D_thin_dipole_i3.npy
+    i=4  fB_target=0.09109  (1.7 s)
+      f_B=0.4791  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.009109  (58.2 s (JIT compile + run))
+      f_B=6.684e+12  fin_f=2041126750.4876  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.0162  (54.6 s)
+      f_B=2.257e+12  fin_f=2041126750.4777  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0288  (65.8 s)
+      f_B=3.605e+12  fin_f=2041126750.4449  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.05122  (50.0 s)
+      f_B=1.835e+13  fin_f=2041126750.3326  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.09109  (60.6 s)
+      f_B=3.872e+12  fin_f=2041126749.9172  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.09706  (22.5 s (JIT compile + run))
+      f_B=7.059e+24  fin_f=25945905347988492.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.1726  (22.8 s)
+      f_B=2.754e+26  fin_f=25945905344456312.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.3069  (24.5 s)
+      f_B=5.158e+27  fin_f=25945905322546928.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.5458  (0.7 s)
+      f_B=0.4791  fin_f=25945905349189272.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.9706  (0.6 s)
+      f_B=0.4791  fin_f=25945905349189272.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.09706  (63.7 s (JIT compile + run))
+      f_B=1.024e+11  fin_f=191556460.2607  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.1726  (65.7 s)
+      f_B=1.093e+11  fin_f=191556459.9717  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.3069  (66.7 s)
+      f_B=2.959e+11  fin_f=191556460.3348  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.5458  (68.5 s)
+      f_B=4.929e+10  fin_f=-430138031.9871  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.9706  (68.7 s)
+      f_B=2.137e+11  fin_f=-430138031.9871  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6MzKWkuMjKGjjNFaFAVPNT/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 13/102: D6jatMpXZHfCM9o8TDuuia7
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 3.31398e-05   (6.2 s)
+      K_theta_avg = 5.216e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0226579   (2.2 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/nescoil_B.npy
+  fB_A=3.314e-05  fB_B=0.02266
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=3.314e-05  (1.5 s (JIT compile + run))
+      f_B=0.03657  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/C_sparse_dipole_i0.npy
+    i=1  fB_target=5.893e-05  (1.5 s)
+      f_B=0.03657  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0001048  (1.5 s)
+      f_B=0.03657  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0001864  (1.5 s)
+      f_B=0.03657  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0003314  (1.5 s)
+      f_B=0.03657  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=3.314e-05  (1.8 s (JIT compile + run))
+      f_B=0.03657  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/D_thin_dipole_i0.npy
+    i=1  fB_target=5.893e-05  (1.8 s)
+      f_B=0.03657  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0001048  (1.9 s)
+      f_B=0.03657  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0001864  (1.9 s)
+      f_B=0.03657  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0003314  (2.0 s)
+      f_B=0.03657  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=3.314e-05  (79.3 s (JIT compile + run))
+      f_B=9.749e+16  fin_f=1158556736090.1860  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=5.893e-05  (56.1 s)
+      f_B=5.076e+15  fin_f=1158556736090.1404  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0001048  (61.6 s)
+      f_B=6.638e+16  fin_f=1158556736089.9932  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0001864  (61.0 s)
+      f_B=3.833e+16  fin_f=1158556736089.4966  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0003314  (64.1 s)
+      f_B=5.646e+15  fin_f=1158556736087.9856  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.02266  (250.1 s (JIT compile + run))
+      f_B=3.837e+26  fin_f=345835182342665280.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.04029  (0.7 s)
+      f_B=0.03657  fin_f=345835189997903168.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.07165  (0.6 s)
+      f_B=0.03657  fin_f=345835189997903168.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.1274  (0.6 s)
+      f_B=0.03657  fin_f=345835189997903168.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.2266  (0.6 s)
+      f_B=0.03657  fin_f=345835189997903168.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.02266  (62.1 s (JIT compile + run))
+      f_B=1.921e+10  fin_f=1694521083.4862  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.04029  (27.4 s)
+      f_B=0.03137  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.07165  (27.4 s)
+      f_B=0.03137  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.1274  (27.3 s)
+      f_B=0.03137  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.2266  (27.5 s)
+      f_B=0.03137  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6jatMpXZHfCM9o8TDuuia7/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 14/102: D6ycVbFhZtyC8FLP6MsWnwq
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00356276   (6.2 s)
+      K_theta_avg = 5.639e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0499427   (2.7 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/nescoil_B.npy
+  fB_A=0.003563  fB_B=0.04994
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.003563  (1.4 s (JIT compile + run))
+      f_B=0.3454  fin_f=0.0000  niter=5
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.006336  (1.4 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.01127  (1.4 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.02003  (1.4 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.03563  (1.6 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.003563  (1.7 s (JIT compile + run))
+      f_B=0.3454  fin_f=0.0000  niter=7
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/D_thin_dipole_i0.npy
+    i=1  fB_target=0.006336  (1.6 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/D_thin_dipole_i1.npy
+    i=2  fB_target=0.01127  (1.7 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/D_thin_dipole_i2.npy
+    i=3  fB_target=0.02003  (1.7 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/D_thin_dipole_i3.npy
+    i=4  fB_target=0.03563  (1.9 s)
+      f_B=0.3454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.003563  (69.7 s (JIT compile + run))
+      f_B=1.136e+13  fin_f=2500900181.7742  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.006336  (153.8 s)
+      f_B=8.361e+12  fin_f=2500900181.7706  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.01127  (103.6 s)
+      f_B=1.306e+13  fin_f=2500900181.7586  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.02003  (94.7 s)
+      f_B=6.446e+12  fin_f=2500900181.7184  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.03563  (141.3 s)
+      f_B=3.876e+13  fin_f=2500900181.5751  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.04994  (22.6 s (JIT compile + run))
+      f_B=1.473e+26  fin_f=6482028555226296.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.08881  (19.7 s)
+      f_B=3.951e+25  fin_f=6482028552490828.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.1579  (22.8 s)
+      f_B=5.875e+25  fin_f=6482028552224083.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.2808  (21.2 s)
+      f_B=1.225e+26  fin_f=6482028526330235.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.4994  (140.9 s)
+      f_B=0.3466  fin_f=5977326716039076.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.04994  (97.2 s (JIT compile + run))
+      f_B=2.176e+10  fin_f=178406645.2282  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.08881  (88.4 s)
+      f_B=1.909e+10  fin_f=178406645.2497  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.1579  (66.2 s)
+      f_B=1.602e+11  fin_f=178406644.4757  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.2808  (27.5 s)
+      f_B=1.024e+23  fin_f=-49271255276.4690  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.4994  (29.2 s)
+      f_B=0.469  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D6ycVbFhZtyC8FLP6MsWnwq/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 15/102: D7dtUEyaFAWa4kQdUbbXxYg
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 4.59947e-05   (6.1 s)
+      K_theta_avg = 5.914e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0339853   (2.7 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/nescoil_B.npy
+  fB_A=4.599e-05  fB_B=0.03399
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=4.599e-05  (1.5 s (JIT compile + run))
+      f_B=0.2203  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/C_sparse_dipole_i0.npy
+    i=1  fB_target=8.179e-05  (1.5 s)
+      f_B=0.2203  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0001454  (1.5 s)
+      f_B=0.2203  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0002586  (1.5 s)
+      f_B=0.2203  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0004599  (1.6 s)
+      f_B=0.2203  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=4.599e-05  (1.7 s (JIT compile + run))
+      f_B=0.2203  fin_f=-0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/D_thin_dipole_i0.npy
+    i=1  fB_target=8.179e-05  (1.7 s)
+      f_B=0.2203  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0001454  (1.7 s)
+      f_B=0.2203  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0002586  (1.8 s)
+      f_B=0.2203  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0004599  (1.6 s)
+      f_B=0.2203  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D7dtUEyaFAWa4kQdUbbXxYg/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=4.599e-05  

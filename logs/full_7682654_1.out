@@ -1,0 +1,35 @@
+Job ID: 7682656
+Array task: 1 / 16
+Start time: Thu Apr 30 23:43:00 EDT 2026
+Node: gh105
+GPU: 0
+Found 32 config(s) to process.
+
+============================================================
+Config 1/32: D24So3pr8Kyi884GKqabrxZ
+============================================================
+  [A] cached
+      f_B = 3.77639e-05
+      K_theta_avg = 5.933e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0197271
+  fB_A=3.776e-05  fB_B=0.01973
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2  fB_target=0.0001194  

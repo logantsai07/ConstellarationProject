@@ -1,0 +1,43 @@
+Job ID: 7676520
+Start time: Thu Apr 30 22:55:12 EDT 2026
+Found 1 config(s) to process.
+
+============================================================
+Config 1/1: D22RYC5Z58coDhr9Wc6PXqz
+============================================================
+  [A] cached
+      f_B = 0.00452678
+      K_theta_avg = 7.976e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.468717
+  fB_A=0.004527  fB_B=0.4687
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [E_low_force_dipole]  objective=f_l2_force_cyl
+    i=0  fB_target=0.004527  
+      FAILED: 'f_l2_force_cyl' not found in quadcoil.quantity.
+    i=1  fB_target=0.00805  
+      FAILED: 'f_l2_force_cyl' not found in quadcoil.quantity.
+    i=2  fB_target=0.01431  
+      FAILED: 'f_l2_force_cyl' not found in quadcoil.quantity.
+    i=3  fB_target=0.02546  
+      FAILED: 'f_l2_force_cyl' not found in quadcoil.quantity.
+    i=4  fB_target=0.04527  
+      FAILED: 'f_l2_force_cyl' not found in quadcoil.quantity.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1  fB_target=0.00805  

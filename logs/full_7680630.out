@@ -1,0 +1,105 @@
+Job ID: 7680630
+Start time: Thu Apr 30 23:33:44 EDT 2026
+Node: gh103
+GPU: 0
+Found 512 config(s) to process.
+
+============================================================
+Config 1/512: D22RYC5Z58coDhr9Wc6PXqz
+============================================================
+  [A] cached
+      f_B = 0.00452678
+      K_theta_avg = 7.976e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.468717
+  fB_A=0.004527  fB_B=0.4687
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 2/512: D24So3pr8Kyi884GKqabrxZ
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 3.77639e-05   (14.2 s)
+      K_theta_avg = 5.933e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0197271   (15.0 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/nescoil_B.npy
+  fB_A=3.776e-05  fB_B=0.01973
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=3.776e-05  (18.4 s (JIT compile + run))
+      f_B=0.2454  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/C_sparse_dipole_i0.npy
+    i=1  fB_target=6.715e-05  (1.4 s)
+      f_B=0.2454  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0001194  (1.4 s)
+      f_B=0.2454  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0002124  (1.4 s)
+      f_B=0.2454  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0003776  (1.4 s)
+      f_B=0.2454  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=3.776e-05  (17.8 s (JIT compile + run))
+      f_B=0.2454  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/D_thin_dipole_i0.npy
+    i=1  fB_target=6.715e-05  (1.6 s)
+      f_B=0.2454  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0001194  (1.7 s)
+      f_B=0.2454  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0002124  (1.7 s)
+      f_B=0.2454  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0003776  (1.7 s)
+      f_B=0.2454  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=3.776e-05  (135.4 s (JIT compile + run))
+      f_B=7.605e+19  fin_f=7435498336180.5596  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=6.715e-05  (115.1 s)
+      f_B=6.859e+19  fin_f=7435498336180.5566  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/D24So3pr8Kyi884GKqabrxZ/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0001194  

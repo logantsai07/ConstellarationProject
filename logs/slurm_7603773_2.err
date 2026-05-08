@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/scratch/lct9592/quadcoil_sweep/./download_constellaration.py", line 345, in <module>
+    main()
+  File "/scratch/lct9592/quadcoil_sweep/./download_constellaration.py", line 328, in main
+    run(run_config)
+  File "/scratch/lct9592/quadcoil_sweep/./download_constellaration.py", line 158, in run
+    save_myself(join(SAVE_DIR, "src"))
+  File "/scratch/lct9592/quadcoil_sweep/./download_constellaration.py", line 136, in save_myself
+    shutil.copytree(source, dest, dirs_exist_ok=True)
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/shutil.py", line 600, in copytree
+    return _copytree(entries=entries, src=src, dst=dst, symlinks=symlinks,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/shutil.py", line 554, in _copytree
+    raise Error(errors)
+shutil.Error: [('/scratch/lct9592/quadcoil_sweep/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.idx', '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.idx', "[Errno 13] Permission denied: '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.idx'"), ('/scratch/lct9592/quadcoil_sweep/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.pack', '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.pack', "[Errno 13] Permission denied: '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.pack'"), ('/scratch/lct9592/quadcoil_sweep/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.rev', '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.rev', "[Errno 13] Permission denied: '/scratch/lct9592/output_constellaration_nfp=3/src/.git/objects/pack/pack-157e40e1d932287f7b4ff1405a3623933147ee7d.rev'")]

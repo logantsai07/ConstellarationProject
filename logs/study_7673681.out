@@ -1,0 +1,16 @@
+Job ID: 7673681
+Start time: Thu Apr 30 21:26:32 EDT 2026
+Found 1 config(s) to process.
+
+============================================================
+Config 1/1: D22RYC5Z58coDhr9Wc6PXqz
+============================================================
+  [A] cached
+      f_B = 0.00471329
+  Config failed: Error interpreting argument to <function _Quantity.__call__ at 0x145b8f741f80> as an abstract array. The problematic value is of type <class 'numpy.ndarray'> and was passed to the function at path dofs.
+This typically means that a jit-wrapped function was called with a non-array argument, and this argument was not marked as static using the static_argnums or static_argnames parameters of jax.jit. — continuing to next.
+
+
+All configs complete.
+End time: Thu Apr 30 21:26:52 EDT 2026
+Job completed!

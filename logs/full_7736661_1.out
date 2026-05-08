@@ -1,0 +1,1811 @@
+Job ID: 7737093
+Array task: 1 / 5
+Start time: Fri May  1 11:18:18 EDT 2026
+Node: gh105
+GPU: 0
+Found 103 config(s) to process.
+
+============================================================
+Config 1/103: D24So3pr8Kyi884GKqabrxZ
+============================================================
+  [A] cached
+      f_B = 3.77639e-05
+      K_theta_avg = 5.933e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0197271
+  fB_A=3.776e-05  fB_B=0.01973
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 2/103: D2ESfxkqvU4sSHAmuZzqdUQ
+============================================================
+  [A] cached
+      f_B = 0.000272812
+      K_theta_avg = 5.785e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0307136
+  fB_A=0.0002728  fB_B=0.03071
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 3/103: D2p6HktBw7Gm62KQSpSdJhd
+============================================================
+  [A] cached
+      f_B = 0.000100193
+      K_theta_avg = 5.808e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0371045
+  fB_A=0.0001002  fB_B=0.0371
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 4/103: D3AqXix467453wMYs2NV2yb
+============================================================
+  [A] cached
+      f_B = 0.000909384
+      K_theta_avg = 6.47e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0884914
+  fB_A=0.0009094  fB_B=0.08849
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 5/103: D3V5s5EGJ5nqhZS5YAjYJdi
+============================================================
+  [A] cached
+      f_B = 0.000730669
+      K_theta_avg = 5.317e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0587657
+  fB_A=0.0007307  fB_B=0.05877
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 6/103: D3jBXrGJcLs4Dqh4kH8q2L6
+============================================================
+  [A] cached
+      f_B = 0.000118243
+      K_theta_avg = 5.71e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0862512
+  fB_A=0.0001182  fB_B=0.08625
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 7/103: D4CX9ZNdix4UeVbKFxzw7ji
+============================================================
+  [A] cached
+      f_B = 0.000525854
+      K_theta_avg = 5.343e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0450031
+  fB_A=0.0005259  fB_B=0.045
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 8/103: D4WC6HZmMdNpTVJDRETZz4q
+============================================================
+  [A] cached
+      f_B = 0.000720439
+      K_theta_avg = 7.012e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.23239
+  fB_A=0.0007204  fB_B=0.2324
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 9/103: D54ZhstWZ7qwLJS7KWbPPaN
+============================================================
+  [A] cached
+      f_B = 0.000683198
+      K_theta_avg = 5.675e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0406244
+  fB_A=0.0006832  fB_B=0.04062
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 10/103: D5PdHFcDpgK9vA63smPcptG
+============================================================
+  [A] cached
+      f_B = 0.00134971
+      K_theta_avg = 5.762e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0404997
+  fB_A=0.00135  fB_B=0.0405
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 11/103: D5b5mgzqVFawecdo5XLqaEk
+============================================================
+  [A] cached
+      f_B = 0.00653803
+      K_theta_avg = 6.354e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.200902
+  fB_A=0.006538  fB_B=0.2009
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 12/103: D6B7JAww3HW3TkWFqrWLJWQ
+============================================================
+  [A] cached
+      f_B = 0.000863856
+      K_theta_avg = 5.443e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.102863
+  fB_A=0.0008639  fB_B=0.1029
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 13/103: D6YzqpaFGh4PdvzLnJc7jTH
+============================================================
+  [A] cached
+      f_B = 0.000244863
+      K_theta_avg = 5.466e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.109052
+  fB_A=0.0002449  fB_B=0.1091
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 14/103: D6kUgZumEwS9LyDqdxJpCx3
+============================================================
+  [A] cached
+      f_B = 0.00325914
+      K_theta_avg = 7.479e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.14352
+  fB_A=0.003259  fB_B=0.1435
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 15/103: D7J8J5c8vLQu6T3Q3yE8fdw
+============================================================
+  [A] cached
+      f_B = 0.00293695
+      K_theta_avg = 7.381e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.102768
+  fB_A=0.002937  fB_B=0.1028
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 16/103: D7q6nf4t4f7s2BXN6twX6QJ
+============================================================
+  [A] cached
+      f_B = 0.00325801
+      K_theta_avg = 5.543e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0432155
+  fB_A=0.003258  fB_B=0.04322
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 17/103: D7zntVQePZ4AryP59pvWUcB
+============================================================
+  [A] cached
+      f_B = 0.000152643
+      K_theta_avg = 5.457e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.057771
+  fB_A=0.0001526  fB_B=0.05777
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 18/103: D8JWVo9sDHvv4TncCj9rNAf
+============================================================
+  [A] cached
+      f_B = 0.000242961
+      K_theta_avg = 5.331e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0168049
+  fB_A=0.000243  fB_B=0.0168
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 19/103: D8pDeaVf2sufwYbtq9Za5Xw
+============================================================
+  [A] cached
+      f_B = 0.00193703
+      K_theta_avg = 5.477e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0453663
+  fB_A=0.001937  fB_B=0.04537
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 20/103: D963WyCPhNjyvkU8uVKbT2d
+============================================================
+  [A] cached
+      f_B = 0.000203808
+      K_theta_avg = 5.523e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0234101
+  fB_A=0.0002038  fB_B=0.02341
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 21/103: D9qUWi8bj7WX4YMGsB6MCyd
+============================================================
+  [A] cached
+      f_B = 0.000815102
+      K_theta_avg = 5.471e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0569811
+  fB_A=0.0008151  fB_B=0.05698
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 22/103: DAMD3fXk4airuffyFEjHzvs
+============================================================
+  [A] cached
+      f_B = 0.000623406
+      K_theta_avg = 5.861e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0644222
+  fB_A=0.0006234  fB_B=0.06442
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 23/103: DAX9Hb4GEo2MBCsFQXNxiXF
+============================================================
+  [A] cached
+      f_B = 4.9843e-05
+      K_theta_avg = 6.332e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.137633
+  fB_A=4.984e-05  fB_B=0.1376
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 24/103: DB2qgEtRSyrCYEwkJNcy6aq
+============================================================
+  [A] cached
+      f_B = 0.000638162
+      K_theta_avg = 5.992e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0646242
+  fB_A=0.0006382  fB_B=0.06462
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 25/103: DBciP9VGymyEwCEBAVKX2BP
+============================================================
+  [A] cached
+      f_B = 6.18857e-05
+      K_theta_avg = 5.437e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0172096
+  fB_A=6.189e-05  fB_B=0.01721
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 26/103: DBxA7FKnPuZUatBbYuoNYsx
+============================================================
+  [A] cached
+      f_B = 0.000132399
+      K_theta_avg = 5.743e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.0334945
+  fB_A=0.0001324  fB_B=0.03349
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+============================================================
+Config 27/103: DCQ2VC2wmPbzkpcw9GYCDpx
+============================================================
+  [A] cached
+      f_B = 0.00077019
+      K_theta_avg = 7.615e+06  -> K_theta >= 0
+  [B] cached
+      f_B = 0.214603
+  fB_A=0.0007702  fB_B=0.2146
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0: cached, skipping.
+    i=1: cached, skipping.
+    i=2: cached, skipping.
+    i=3: cached, skipping.
+    i=4: cached, skipping.
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.2146  (403.9 s (JIT compile + run))
+      f_B=2.236e+10  fin_f=46375446.1456  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DCQ2VC2wmPbzkpcw9GYCDpx/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.3816  (366.7 s)
+      f_B=3.2e+09  fin_f=46375446.1456  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DCQ2VC2wmPbzkpcw9GYCDpx/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.6786  (56.8 s)
+      f_B=1.356e+07  fin_f=46375446.1456  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DCQ2VC2wmPbzkpcw9GYCDpx/K_low_max_force_filament_i2.npy
+    i=3  fB_target=1.207  (105.2 s)
+      f_B=1.597e+09  fin_f=8311196.8647  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DCQ2VC2wmPbzkpcw9GYCDpx/K_low_max_force_filament_i3.npy
+    i=4  fB_target=2.146  (101.6 s)
+      f_B=2.997e+08  fin_f=8311196.8647  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DCQ2VC2wmPbzkpcw9GYCDpx/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 28/103: DDAtxFtfA8NsKW2aRfXYuqS
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00315562   (13.1 s)
+      K_theta_avg = 5.558e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.233157   (17.7 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/nescoil_B.npy
+  fB_A=0.003156  fB_B=0.2332
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.003156  (18.0 s (JIT compile + run))
+      f_B=0.6465  fin_f=0.0000  niter=6
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.005612  (1.3 s)
+      f_B=0.6465  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.009979  (1.3 s)
+      f_B=0.6465  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.01775  (1.4 s)
+      f_B=0.6465  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.03156  (1.5 s)
+      f_B=0.6465  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.003156  (17.4 s (JIT compile + run))
+      f_B=0.6465  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/D_thin_dipole_i0.npy
+    i=1  fB_target=0.005612  (1.5 s)
+      f_B=0.6465  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/D_thin_dipole_i1.npy
+    i=2  fB_target=0.009979  (1.5 s)
+      f_B=0.6465  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/D_thin_dipole_i2.npy
+    i=3  fB_target=0.01775  (1.6 s)
+      f_B=0.6465  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/D_thin_dipole_i3.npy
+    i=4  fB_target=0.03156  (1.7 s)
+      f_B=0.6465  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.003156  (184.2 s (JIT compile + run))
+      f_B=2.294e+12  fin_f=1338377818.6479  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.005612  (397.1 s)
+      f_B=7.631e+12  fin_f=1338377818.6479  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.009979  (200.3 s)
+      f_B=7.811e+10  fin_f=1338377818.6478  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.01775  (397.6 s)
+      f_B=1.824e+13  fin_f=1338377818.6477  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.03156  (396.1 s)
+      f_B=1.76e+13  fin_f=1338377818.6356  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.2332  (271.1 s (JIT compile + run))
+      f_B=1.584e+21  fin_f=180674015114264.3125  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.4146  (152.5 s)
+      f_B=4.477e+18  fin_f=180674014032525.5312  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.7373  (81.9 s)
+      f_B=9.257e+20  fin_f=138047961374983.2969  niter=975
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/I_low_curvature_filament_i2.npy
+    i=3  fB_target=1.311  (81.7 s)
+      f_B=9.257e+20  fin_f=138047961374983.2969  niter=975
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/I_low_curvature_filament_i3.npy
+    i=4  fB_target=2.332  (82.1 s)
+      f_B=9.257e+20  fin_f=138047961374983.2969  niter=975
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.2332  (160.8 s (JIT compile + run))
+      f_B=1.577e+08  fin_f=18114048.6704  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.4146  (64.5 s)
+      f_B=5.387e+08  fin_f=18114048.6699  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.7373  (149.3 s)
+      f_B=3.025e+21  fin_f=-61710415235660.5781  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/K_low_max_force_filament_i2.npy
+    i=3  fB_target=1.311  (186.6 s)
+      f_B=6.487e+21  fin_f=-61710415235660.5781  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/K_low_max_force_filament_i3.npy
+    i=4  fB_target=2.332  (60.7 s)
+      f_B=2.11e+21  fin_f=-61710415235660.5781  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDAtxFtfA8NsKW2aRfXYuqS/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 29/103: DDoVSdTuncTQGRTuFd3syHY
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.000960037   (6.2 s)
+      K_theta_avg = 5.364e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0515774   (2.8 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/nescoil_B.npy
+  fB_A=0.00096  fB_B=0.05158
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.00096  (1.4 s (JIT compile + run))
+      f_B=0.1873  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.001707  (1.3 s)
+      f_B=0.1873  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.003036  (1.4 s)
+      f_B=0.1873  fin_f=0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.005399  (1.5 s)
+      f_B=0.1873  fin_f=0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0096  (1.5 s)
+      f_B=0.1873  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.00096  (1.6 s (JIT compile + run))
+      f_B=0.1873  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/D_thin_dipole_i0.npy
+    i=1  fB_target=0.001707  (1.6 s)
+      f_B=0.1873  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/D_thin_dipole_i1.npy
+    i=2  fB_target=0.003036  (1.7 s)
+      f_B=0.1873  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/D_thin_dipole_i2.npy
+    i=3  fB_target=0.005399  (1.9 s)
+      f_B=0.1873  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0096  (1.8 s)
+      f_B=0.1873  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.00096  (279.6 s (JIT compile + run))
+      f_B=1.309e+15  fin_f=36099480904.2569  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.001707  (90.4 s)
+      f_B=1.155e+15  fin_f=36099480904.2478  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.003036  (122.3 s)
+      f_B=2.297e+15  fin_f=36099480904.2188  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.005399  (81.8 s)
+      f_B=1.373e+15  fin_f=36099480904.1255  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0096  (78.2 s)
+      f_B=1.261e+15  fin_f=36099480903.8220  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.05158  (18.5 s (JIT compile + run))
+      f_B=4.224e+19  fin_f=1419367116605492.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.09172  (20.1 s)
+      f_B=7.721e+19  fin_f=1419367112787439.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.1631  (19.8 s)
+      f_B=2.752e+19  fin_f=1419366973920014.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.29  (19.8 s)
+      f_B=1.487e+19  fin_f=1419367117047099.5000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.5158  (19.8 s)
+      f_B=1.487e+19  fin_f=1419367117047099.5000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.05158  (65.8 s (JIT compile + run))
+      f_B=6.021e+10  fin_f=671938465.5951  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.09172  (333.6 s)
+      f_B=2.702e+11  fin_f=671938465.5951  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.1631  (86.1 s)
+      f_B=2.826e+10  fin_f=671938448.3002  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.29  (3.2 s)
+      f_B=6.071e+56  fin_f=-2418636291368259783904369759364552065024.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.5158  (3.2 s)
+      f_B=6.071e+56  fin_f=-2418636291368259783904369759364552065024.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DDoVSdTuncTQGRTuFd3syHY/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 30/103: DELmVjHXt3KUafqpkR78si5
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.00644645   (6.1 s)
+      K_theta_avg = 5.782e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0636324   (2.5 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/nescoil_B.npy
+  fB_A=0.006446  fB_B=0.06363
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.006446  (1.3 s (JIT compile + run))
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.01146  (1.3 s)
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.02039  (1.3 s)
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.03625  (1.4 s)
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.06446  (1.5 s)
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.006446  (1.6 s (JIT compile + run))
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/D_thin_dipole_i0.npy
+    i=1  fB_target=0.01146  (1.5 s)
+      f_B=0.3871  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/D_thin_dipole_i1.npy
+    i=2  fB_target=0.02039  (1.6 s)
+      f_B=0.3871  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/D_thin_dipole_i2.npy
+    i=3  fB_target=0.03625  (1.6 s)
+      f_B=0.3871  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/D_thin_dipole_i3.npy
+    i=4  fB_target=0.06446  (1.7 s)
+      f_B=0.3871  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.006446  (118.1 s (JIT compile + run))
+      f_B=1.197e+16  fin_f=1575565457.6430  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.01146  (64.7 s)
+      f_B=1.918e+15  fin_f=1575565457.6430  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.02039  (65.0 s)
+      f_B=5.984e+15  fin_f=1575565457.6430  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.03625  (63.6 s)
+      f_B=1.771e+14  fin_f=1575565457.6430  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.06446  (66.5 s)
+      f_B=4.357e+15  fin_f=1575565457.6430  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.06363  (22.8 s (JIT compile + run))
+      f_B=4.011e+24  fin_f=39521666878390184.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.1132  (22.8 s)
+      f_B=5.609e+25  fin_f=39521666872548424.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.2012  (24.2 s)
+      f_B=1.434e+25  fin_f=39521666843780824.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.3578  (20.7 s)
+      f_B=2.988e+25  fin_f=39521665701508296.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.6363  (0.6 s)
+      f_B=0.3871  fin_f=39521666880246368.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.06363  (64.8 s (JIT compile + run))
+      f_B=5.019e+13  fin_f=159616908.5618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.1132  (66.8 s)
+      f_B=4.008e+14  fin_f=159616908.5618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.2012  (67.9 s)
+      f_B=1.299e+13  fin_f=159616908.5618  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.3578  (62.4 s)
+      f_B=1.344e+13  fin_f=159616908.5618  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.6363  (36.6 s)
+      f_B=0.439  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DELmVjHXt3KUafqpkR78si5/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 31/103: DEpTNwwomd3QaSdchNjeVSK
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 4.94091e-05   (6.2 s)
+      K_theta_avg = 5.888e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.014566   (3.0 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/nescoil_B.npy
+  fB_A=4.941e-05  fB_B=0.01457
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=4.941e-05  (1.3 s (JIT compile + run))
+      f_B=0.2501  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/C_sparse_dipole_i0.npy
+    i=1  fB_target=8.786e-05  (1.3 s)
+      f_B=0.2501  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0001562  (1.4 s)
+      f_B=0.2501  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0002778  (1.4 s)
+      f_B=0.2501  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.0004941  (1.4 s)
+      f_B=0.2501  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=4.941e-05  (1.6 s (JIT compile + run))
+      f_B=0.2501  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/D_thin_dipole_i0.npy
+    i=1  fB_target=8.786e-05  (1.5 s)
+      f_B=0.2501  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0001562  (1.6 s)
+      f_B=0.2501  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0002778  (1.6 s)
+      f_B=0.2501  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/D_thin_dipole_i3.npy
+    i=4  fB_target=0.0004941  (1.7 s)
+      f_B=0.2501  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=4.941e-05  (229.4 s (JIT compile + run))
+      f_B=8.878e+16  fin_f=447907221909.9164  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=8.786e-05  (233.0 s)
+      f_B=2.804e+17  fin_f=447907221909.9164  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0001562  (264.5 s)
+      f_B=2.196e+18  fin_f=447907221909.9164  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0002778  (188.0 s)
+      f_B=5.223e+17  fin_f=447907221909.9164  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.0004941  (274.2 s)
+      f_B=2.904e+19  fin_f=447907221909.9164  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.01457  (224.9 s (JIT compile + run))
+      f_B=1.852e+21  fin_f=12196619887050932.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.0259  (225.2 s)
+      f_B=5.912e+24  fin_f=12196619886629848.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.04606  (224.2 s)
+      f_B=3.798e+21  fin_f=12196619885139008.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.08191  (223.9 s)
+      f_B=3.113e+21  fin_f=12196619879201590.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.1457  (226.0 s)
+      f_B=1.059e+24  fin_f=12196619846331878.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.01457  (86.2 s (JIT compile + run))
+      f_B=3.583e+12  fin_f=1519336022.6537  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.0259  (77.0 s)
+      f_B=8.849e+13  fin_f=1519336022.6537  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.04606  (66.6 s)
+      f_B=4.367e+13  fin_f=1519336022.6537  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.08191  (75.9 s)
+      f_B=8.801e+11  fin_f=1519336022.6537  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.1457  (68.3 s)
+      f_B=4.95e+13  fin_f=1519336022.6537  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DEpTNwwomd3QaSdchNjeVSK/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 32/103: DFGQMBDnh9oP2YJ4yAoFJXJ
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 2.9898e-05   (6.1 s)
+      K_theta_avg = 5.55e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0331479   (2.8 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/nescoil_B.npy
+  fB_A=2.99e-05  fB_B=0.03315
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=2.99e-05  (1.4 s (JIT compile + run))
+      f_B=0.1638  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/C_sparse_dipole_i0.npy
+    i=1  fB_target=5.317e-05  (1.3 s)
+      f_B=0.1638  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/C_sparse_dipole_i1.npy
+    i=2  fB_target=9.455e-05  (1.3 s)
+      f_B=0.1638  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.0001681  (1.3 s)
+      f_B=0.1638  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.000299  (1.3 s)
+      f_B=0.1638  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=2.99e-05  (1.6 s (JIT compile + run))
+      f_B=0.1638  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/D_thin_dipole_i0.npy
+    i=1  fB_target=5.317e-05  (1.5 s)
+      f_B=0.1638  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/D_thin_dipole_i1.npy
+    i=2  fB_target=9.455e-05  (1.6 s)
+      f_B=0.1638  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/D_thin_dipole_i2.npy
+    i=3  fB_target=0.0001681  (1.5 s)
+      f_B=0.1638  fin_f=-0.0000  niter=3
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/D_thin_dipole_i3.npy
+    i=4  fB_target=0.000299  (1.5 s)
+      f_B=0.1638  fin_f=-0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=2.99e-05  (64.7 s (JIT compile + run))
+      f_B=1.924e+17  fin_f=616547233332.8779  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=5.317e-05  (65.3 s)
+      f_B=7.053e+15  fin_f=616547233332.8779  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=9.455e-05  (72.1 s)
+      f_B=1.264e+17  fin_f=616547233332.8779  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.0001681  (67.3 s)
+      f_B=5.381e+15  fin_f=616547233332.8779  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.000299  (65.2 s)
+      f_B=3.522e+16  fin_f=616547233332.8779  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.03315  (19.2 s (JIT compile + run))
+      f_B=2.64e+20  fin_f=2380814124622771.5000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.05895  (19.5 s)
+      f_B=1.962e+20  fin_f=2380814123646025.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.1048  (18.9 s)
+      f_B=1.862e+20  fin_f=2380814092606020.5000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.1864  (130.7 s)
+      f_B=0.1638  fin_f=1592062215072067.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.3315  (130.0 s)
+      f_B=0.1638  fin_f=1592062215072067.0000  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.03315  (65.8 s (JIT compile + run))
+      f_B=6.789e+10  fin_f=556100750.5271  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.05895  (67.1 s)
+      f_B=7.138e+09  fin_f=556100750.5271  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.1048  (66.8 s)
+      f_B=8.719e+09  fin_f=556100750.5271  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.1864  (133.2 s)
+      f_B=3.008e+10  fin_f=327155712.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.3315  (132.2 s)
+      f_B=2.47e+10  fin_f=327155712.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFGQMBDnh9oP2YJ4yAoFJXJ/K_low_max_force_filament_i4.npy
+
+============================================================
+Config 33/103: DFeoHvYPdfB4e8QxtBXRyK5
+============================================================
+  [A] Nescoil (minimise f_B) ...
+      f_B = 0.000247467   (6.0 s)
+      K_theta_avg = 6.11e+06  -> K_theta >= 0
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/nescoil_A.npy
+  [B] Nescoil w/ K_theta sign constraint ...
+      f_B = 0.0640969   (3.2 s)
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/nescoil_B.npy
+  fB_A=0.0002475  fB_B=0.0641
+
+  [C_sparse_dipole]  objective=f_l1_Phi
+    i=0  fB_target=0.0002475  (1.5 s (JIT compile + run))
+      f_B=0.3341  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/C_sparse_dipole_i0.npy
+    i=1  fB_target=0.0004401  (1.5 s)
+      f_B=0.3341  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/C_sparse_dipole_i1.npy
+    i=2  fB_target=0.0007826  (1.4 s)
+      f_B=0.3341  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/C_sparse_dipole_i2.npy
+    i=3  fB_target=0.001392  (1.4 s)
+      f_B=0.3341  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/C_sparse_dipole_i3.npy
+    i=4  fB_target=0.002475  (1.4 s)
+      f_B=0.3341  fin_f=0.0000  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/C_sparse_dipole_i4.npy
+
+  [D_thin_dipole]  objective=f_max_Phi
+    i=0  fB_target=0.0002475  (1.6 s (JIT compile + run))
+      f_B=0.3341  fin_f=0.0000  niter=4
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/D_thin_dipole_i0.npy
+    i=1  fB_target=0.0004401  (1.5 s)
+      f_B=0.3341  fin_f=0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/D_thin_dipole_i1.npy
+    i=2  fB_target=0.0007826  (1.7 s)
+      f_B=0.3341  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/D_thin_dipole_i2.npy
+    i=3  fB_target=0.001392  (1.7 s)
+      f_B=0.3341  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/D_thin_dipole_i3.npy
+    i=4  fB_target=0.002475  (1.8 s)
+      f_B=0.3341  fin_f=-0.0000  niter=10
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/D_thin_dipole_i4.npy
+
+  [F_low_max_force_dipole]  objective=f_max_force_cyl
+    i=0  fB_target=0.0002475  (140.2 s (JIT compile + run))
+      f_B=6.786e+14  fin_f=90490453751.3053  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/F_low_max_force_dipole_i0.npy
+    i=1  fB_target=0.0004401  (134.4 s)
+      f_B=2.913e+15  fin_f=90490453751.3053  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/F_low_max_force_dipole_i1.npy
+    i=2  fB_target=0.0007826  (108.7 s)
+      f_B=1.057e+15  fin_f=90490453751.3053  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/F_low_max_force_dipole_i2.npy
+    i=3  fB_target=0.001392  (296.8 s)
+      f_B=3.677e+14  fin_f=90490453751.3053  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/F_low_max_force_dipole_i3.npy
+    i=4  fB_target=0.002475  (346.3 s)
+      f_B=3.769e+14  fin_f=90490453751.3053  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/F_low_max_force_dipole_i4.npy
+
+  [I_low_curvature_filament]  objective=f_max_K_dot_grad_K_cyl
+    i=0  fB_target=0.0641  (241.3 s (JIT compile + run))
+      f_B=8.162e+20  fin_f=761124068240094.2500  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/I_low_curvature_filament_i0.npy
+    i=1  fB_target=0.114  (242.4 s)
+      f_B=8.114e+21  fin_f=761124067035292.1250  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/I_low_curvature_filament_i1.npy
+    i=2  fB_target=0.2027  (239.9 s)
+      f_B=4.37e+18  fin_f=761124059780428.3750  niter=1
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/I_low_curvature_filament_i2.npy
+    i=3  fB_target=0.3604  (130.5 s)
+      f_B=0.3342  fin_f=575820658194402.3750  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/I_low_curvature_filament_i3.npy
+    i=4  fB_target=0.641  (130.9 s)
+      f_B=0.3342  fin_f=575820658194402.3750  niter=2
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/I_low_curvature_filament_i4.npy
+
+  [K_low_max_force_filament]  objective=f_max_force_cyl
+    i=0  fB_target=0.0641  (205.2 s (JIT compile + run))
+      f_B=7.288e+08  fin_f=349368046.1942  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/K_low_max_force_filament_i0.npy
+    i=1  fB_target=0.114  (295.4 s)
+      f_B=2.089e+09  fin_f=349368046.1942  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/K_low_max_force_filament_i1.npy
+    i=2  fB_target=0.2027  (131.9 s)
+      f_B=3.452e+10  fin_f=349368046.1942  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/K_low_max_force_filament_i2.npy
+    i=3  fB_target=0.3604  (28.7 s)
+      f_B=0.3522  fin_f=0.0000  niter=1000
+    -> saved /scratch/lct9592/output_constellaration_nfp=3/DFeoHvYPdfB4e8QxtBXRyK5/K_low_max_force_filament_i3.npy
+    i=4  fB_target=0.641  

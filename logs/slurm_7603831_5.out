@@ -1,0 +1,141 @@
+Job ID: 7603839
+Array task: 5 / 8
+Nodes: 1
+Tasks: 
+CPUs per task: 1
+Start time: Thu Apr 30 02:48:31 EDT 2026
+Args loaded: Namespace(device_scaling='stellaris', num_config=500, nfp=3, task_id=5, num_tasks=8)
+Saving to /scratch/lct9592/quadcoil_sweep/../output_constellaration_nfp=3
+Saved self to /scratch/lct9592/output_constellaration_nfp=3/src
+Number of valid cases: 1906
+Array task 5/8: processing shard 5 of 8
+Plasma config id: DRbBpyEGPq6bHzjkNkwfQLS
+VMEC load succeeded
+Plasma config id: Defu4s2L36JUxfoCKQcgHq2
+VMEC load succeeded
+Plasma config id: DFeoHvYPdfB4e8QxtBXRyK5
+VMEC load succeeded
+Plasma config id: DKCeNWi2LRnGvjHzBYb4ktK
+VMEC load succeeded
+Plasma config id: DQHxDETUyUU2QiifkjUQPeT
+VMEC load succeeded
+Plasma config id: D7vy9ZBeX8quQvvhPjL29eT
+VMEC load succeeded
+Plasma config id: DLmewCuoHACte75aGyvZzZW
+VMEC load succeeded
+Plasma config id: DmFbqgPTzUkEgVuSN2KBsRX
+VMEC load succeeded
+Plasma config id: DAMD3fXk4airuffyFEjHzvs
+VMEC load succeeded
+Plasma config id: DLgK4L4g4cScHVbhwKkWLvG
+VMEC load succeeded
+Plasma config id: D3SwmymKBgnyZRGzS44XYKZ
+VMEC load succeeded
+Plasma config id: DTQPqGUf6dACjHkPf6aeyLm
+VMEC load succeeded
+Plasma config id: D2xAJWsqx79rVHp4zgDeXN9
+VMEC load succeeded
+Plasma config id: DPRcgyyV2MTxp4ahoYQRyiE
+VMEC load succeeded
+Plasma config id: Dk9f9h2w9BoJySpE47qMa4Z
+VMEC load succeeded
+Plasma config id: DL7Go8qrMHzN958BbuDc7ZQ
+VMEC load succeeded
+Plasma config id: DJhkyoUCWMpc34CWewYTmag
+VMEC load succeeded
+Plasma config id: D8LZZuyG9BdLrL2wsMuTJpT
+VMEC load succeeded
+Plasma config id: D4SzFtF3PVCivvwM4pim7bE
+VMEC load succeeded
+Plasma config id: D4mstYFKZJBxViAitK8dHJ2
+VMEC load succeeded
+Plasma config id: De7QtUJUsXojLVr2LbzQasB
+VMEC load succeeded
+Plasma config id: D6kQeo4CS5ehnhupkbMbUtq
+VMEC load succeeded
+Plasma config id: Di6Y8wqQGjPTzcQu9TGzKcX
+VMEC load succeeded
+Plasma config id: DTZE9fsPBDjwekGf7yarNg8
+VMEC load succeeded
+Plasma config id: DQy65kFVXxVahiJUGMsw5Ps
+VMEC load succeeded
+Plasma config id: D2zjJWKuZmWckWTGfyDm8C8
+VMEC load succeeded
+Plasma config id: DcLdBzf42jmKzrk4vUFsWBp
+VMEC load succeeded
+Plasma config id: D5ECfZqbmsDWcDXB3UHhsxC
+VMEC load succeeded
+Plasma config id: DFNkoEc7RTSucewK7pT5oRr
+VMEC load succeeded
+Plasma config id: DZxg4q5oP9eqk2Porp4su43
+VMEC load succeeded
+Plasma config id: DTcAbmGDx9N8Bqs9SvtS9YU
+VMEC load succeeded
+Plasma config id: D6GnVpq2jZ4bashLDeCqrn5
+VMEC load succeeded
+Plasma config id: DfeAGqZGE4HzcqExJQqKDbX
+VMEC load succeeded
+Plasma config id: DMXVNAobjRfSXvUpkQ2YVZy
+VMEC load succeeded
+Plasma config id: DmETzMVPgCgfvKPK6uumAwg
+VMEC load succeeded
+Plasma config id: D3iZKBgG4cmRRmyNWjtnYdc
+VMEC load succeeded
+Plasma config id: Dm5HvoPHppj43D4vg8s59P5
+VMEC load succeeded
+Plasma config id: D7dtUEyaFAWa4kQdUbbXxYg
+VMEC load succeeded
+Plasma config id: DMvpVrPGJKc34nMTSjfb6oQ
+VMEC load succeeded
+Plasma config id: D5g8oN2tp6fYz7n2fSHhqv5
+VMEC load succeeded
+Plasma config id: DHLoaUoWT5bdQkZ6a3KbJEA
+VMEC load succeeded
+Plasma config id: DnAK5FDTdnctDK5TiHPoDnA
+VMEC load succeeded
+Plasma config id: Dc4tpwBUcoxEabfiNjvmtRM
+VMEC load succeeded
+Plasma config id: DWfRLLBeBcEunJixKJWjA5C
+VMEC load succeeded
+Plasma config id: DafHqJEe7KaSQpVmYMKqriL
+VMEC load succeeded
+Plasma config id: DB6v7ddNaBqhXrq9t5bY9AL
+VMEC load succeeded
+Plasma config id: DhTwHg3EuLjK66KZwS5vsX8
+VMEC load succeeded
+Plasma config id: DbLVdnEPtZ3cbNHLem5nezE
+VMEC load succeeded
+Plasma config id: Dk9yJ5qntAkkVvyMpyY4gyw
+VMEC load succeeded
+Plasma config id: Dn95vTkHHWnXwk658WQ4cXE
+VMEC load succeeded
+Plasma config id: D6MzKWkuMjKGjjNFaFAVPNT
+VMEC load succeeded
+Plasma config id: D6jatMpXZHfCM9o8TDuuia7
+VMEC load succeeded
+Plasma config id: D9dJnEStjVAAH9BdW4fM8hj
+VMEC load succeeded
+Plasma config id: D6tCsdLL8dJEi3x6qyKGBAo
+VMEC load succeeded
+Plasma config id: DCQdFVhnzjVEUUHR4ttwCix
+VMEC load succeeded
+Plasma config id: D7zSS6SKErzQeczXF8hoLCV
+VMEC load succeeded
+Plasma config id: DCi8QmMcjebxyqmiD4pU58v
+VMEC load succeeded
+Plasma config id: DQFp8pmfcNb3bqNmkqgUUCo
+VMEC load succeeded
+Plasma config id: DcrUeaH9HveZGRftkXpvRjN
+VMEC load succeeded
+Plasma config id: D5dnjuBfpAYVgQGvDVrp5B5
+VMEC load succeeded
+Plasma config id: DjJrZCRAi6CJJjRJwsWF8kN
+VMEC load succeeded
+Plasma config id: DGrpXJzwwM2fiEwNFn5UqAG
+VMEC load succeeded
+Plasma config id: DSu44zfBtbsMEBNHxtc9eQf
+VMEC load succeeded
+Plasma config id: DUeEAP8TyJo3uC9qRzu8mqS
+VMEC load succeeded
+End time: Thu Apr 30 03:02:32 EDT 2026
+Job completed!
