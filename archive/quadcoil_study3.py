@@ -1,3 +1,15 @@
+"""
+quadcoil_study.py
+-----------------
+Constellaration study script implementing problems A-K.
+
+Usage
+-----
+    python quadcoil_study.py --input-dir ../output_constellaration_nfp=3
+    python quadcoil_study.py --input-dir ../output_constellaration_nfp=3 --plasma-config-id <id>
+    python quadcoil_study.py --input-dir ../output_constellaration_nfp=3 --plasma-coil-distance 1.4
+"""
+
 import argparse
 import os
 import time
@@ -9,6 +21,7 @@ import jax
 import jax.numpy as jnp
 
 import quadcoil
+from quadcoil.wrapper import get_quantity
 from quadcoil.quantity import K_theta
 
 jax.config.update("jax_compilation_cache_dir", "../jax-caches")
@@ -39,6 +52,10 @@ def to_float(x):
         return None
 
 
+def _fmt(val, spec):
+    return format(val, spec) if val is not None else "N/A"
+
+
 def save_nescoil(path, out_dict, dofs, elapsed, K_theta_avg, K_theta_cons):
     """Save nescoil result. qp is intentionally excluded as it is not serialisable."""
     jnp.save(
@@ -56,7 +73,7 @@ def save_nescoil(path, out_dict, dofs, elapsed, K_theta_avg, K_theta_cons):
     print(f"    -> saved {path}")
 
 
-def save_result(path, out_dict, dofs, elapsed, status=None):
+def save_result(path, out_dict, dofs, elapsed):
     jnp.save(
         path,
         {
@@ -64,7 +81,6 @@ def save_result(path, out_dict, dofs, elapsed, status=None):
             "dofs":          np.array(dofs),
             "time":          elapsed,
             "timestamp_utc": now(),
-            "converged":     bool(status["converged"].item()) if status and "converged" in status else None,
         },
         allow_pickle=True,
     )
@@ -108,7 +124,14 @@ def load_quadcoil_inputs(npy_path, mpol, ntor, plasma_coil_distance):
 
 
 def run_nescoil(config_dir, quadcoil_kwargs_base):
+    """
+    Problem A: pure Nescoil (minimise f_B).
+    Problem B: Nescoil with K_theta sign constraint.
 
+    qp objects are never saved to disk as they are not serialisable.
+    K_theta_avg and K_theta_cons are computed from the live qp after
+    problem A and stored in nescoil_A.npy for use on cached runs.
+    """
     path_A = join(config_dir, "nescoil_A.npy")
     path_B = join(config_dir, "nescoil_B.npy")
 
@@ -123,7 +146,7 @@ def run_nescoil(config_dir, quadcoil_kwargs_base):
             **quadcoil_kwargs_base,
         )
         elapsed_A = time.perf_counter() - t0
-        print(f"      f_B = {to_float(out_A.get('f_B')):.6g}   ({elapsed_A:.1f} s)")
+        print(f"      f_B = {_fmt(to_float(out_A.get('f_B')), '.6g')}   ({elapsed_A:.1f} s)")
 
         K_theta_avg = float(np.average(K_theta(qp_A, dofs_A)))
         K_theta_cons = ">=" if K_theta_avg >= 0 else "<="
@@ -136,7 +159,7 @@ def run_nescoil(config_dir, quadcoil_kwargs_base):
         out_A = d["out_dict"]
         K_theta_avg = float(d["K_theta_avg"])
         K_theta_cons = str(d["K_theta_cons"])
-        print(f"      f_B = {to_float(out_A.get('f_B')):.6g}")
+        print(f"      f_B = {_fmt(to_float(out_A.get('f_B')), '.6g')}")
         print(f"      K_theta_avg = {K_theta_avg:.4g}  -> K_theta {K_theta_cons} 0")
 
     fB_A = to_float(out_A.get("f_B"))
@@ -157,16 +180,16 @@ def run_nescoil(config_dir, quadcoil_kwargs_base):
             **quadcoil_kwargs_base,
         )
         elapsed_B = time.perf_counter() - t0
-        print(f"      f_B = {to_float(out_B.get('f_B')):.6g}   ({elapsed_B:.1f} s)")
+        print(f"      f_B = {_fmt(to_float(out_B.get('f_B')), '.6g')}   ({elapsed_B:.1f} s)")
         save_nescoil(path_B, out_B, dofs_B, elapsed_B, K_theta_avg, K_theta_cons)
     else:
         print("  [B] cached", flush=True)
         d = load_result(path_B)
         out_B = d["out_dict"]
-        print(f"      f_B = {to_float(out_B.get('f_B')):.6g}")
+        print(f"      f_B = {_fmt(to_float(out_B.get('f_B')), '.6g')}")
 
     fB_B = to_float(out_B.get("f_B"))
-    return fB_A, fB_B, K_theta_cons, K_theta_avg
+    return fB_A, fB_B, qp_A, dofs_A, qp_B, dofs_B, K_theta_cons, K_theta_avg
 
 
 def build_fB_targets(fB_A, fB_B, n=5):
@@ -202,17 +225,21 @@ def make_kwargs_list(K_theta_cons, K_theta_avg):
 
 
 def run_one_config(config_dir, quadcoil_kwargs_base, n_targets=5):
-    fB_A, fB_B, K_theta_cons, K_theta_avg = run_nescoil(config_dir, quadcoil_kwargs_base)
+    fB_A, fB_B, qp_A, dofs_A, qp_B, dofs_B, K_theta_cons, K_theta_avg = run_nescoil(config_dir, quadcoil_kwargs_base)
 
     print(f"  fB_A={fB_A:.4g}  fB_B={fB_B:.4g}")
 
     fB_target_dipole, fB_target_filament = build_fB_targets(fB_A, fB_B, n=n_targets)
     target_arrays = {"dipole": fB_target_dipole, "filament": fB_target_filament}
-    obj_units     = {"dipole": fB_A,             "filament": fB_B}
+    # obj_units     = {"dipole": fB_A,             "filament": fB_B}
 
     kwargs_list = make_kwargs_list(K_theta_cons, K_theta_avg)
 
     for kwarg_i in kwargs_list:
+        obj_units = {
+            "dipole": get_quantity(kwarg_i["objective_name"])(qp_A, dofs_A),
+            "filament": get_quantity(kwarg_i["objective_name"])(qp_B, dofs_B)
+        }
         label      = kwarg_i["label"]
         target_key = kwarg_i["target_key"]
         obj_name   = kwarg_i["objective_name"]
@@ -261,9 +288,11 @@ def run_one_config(config_dir, quadcoil_kwargs_base, n_targets=5):
 
                 note = " (JIT compile + run)" if i == 0 else ""
                 print(f"({elapsed:.1f} s{note})")
-                print(f"      f_B={to_float(out_dict.get('f_B')):.4g}  converged={bool(status['converged'].item()) if 'converged' in status else '?'}")
+                print(f"      f_B={_fmt(to_float(out_dict.get('f_B')), '.4g')}  "
+                      f"fin_f={_fmt(status.get('inner_fin_f'), '.4f')}  "
+                      f"niter={status.get('inner_fin_niter', 'N/A')}")
 
-                save_result(save_path, out_dict, dofs, elapsed, status)
+                save_result(save_path, out_dict, dofs, elapsed)
 
             except Exception as e:
                 print(f"\n      FAILED: {e}")

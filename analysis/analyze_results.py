@@ -1,11 +1,7 @@
-"""
-analyze_results.py
-------------------
-Parses SLURM output logs from quadcoil_study and plots histograms
-of f_B values and convergence metrics across all configs and problems.
+"""analyze_results.py
+Parses the slurm .out logs from quadcoil_study and plots histograms of f_B and
+convergence (fin_f, niter) for every problem.
 
-Usage
------
     python analyze_results.py --log-dir /scratch/lct9592/logs --out-dir ./plots
     python analyze_results.py --log-dir /scratch/lct9592/logs --out-dir ./plots --prefix full_
 """

@@ -1,0 +1,60 @@
+Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()
+Traceback (most recent call last):
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/xla_bridge.py", line 487, in discover_pjrt_plugins
+    plugin_module.initialize()
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax_plugins/xla_cuda12/__init__.py", line 370, in initialize
+    _check_cuda_versions(raise_on_first_error = True)
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax_plugins/xla_cuda12/__init__.py", line 274, in _check_cuda_versions
+    for d in range(cuda_versions.cuda_device_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: jaxlib/cuda/versions_helpers.cc:135: operation cuInit(0) failed: Unknown CUDA error 303; cuGetErrorName failed. This probably means that JAX was unable to load the CUDA libraries.
+jax.pure_callback failed
+Traceback (most recent call last):
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 92, in pure_callback_impl
+    return tree_util.tree_map(np.asarray, callback(*args))
+                                          ^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 70, in __call__
+    return tree_util.tree_leaves(self.callback_func(*args, **kwargs))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/equinox/_errors.py", line 88, in raises
+    raise _EquinoxRuntimeError(
+equinox._errors._EquinoxRuntimeError: The root is not contained in [lower, upper]
+
+
+--------------------
+An error occurred during the runtime of your JAX program! Unfortunately you do not appear to be using `equinox.filter_jit` (perhaps you are using `jax.jit` instead?) and so further information about the error cannot be displayed. (Probably you are seeing a very large but uninformative error message right now.) Please wrap your program with `equinox.filter_jit`.
+--------------------
+
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/traceback_util.py", line 196, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/pjit.py", line 255, in cache_miss
+    executable, pgle_profiler, const_args) = _run_python_pjit(
+                                             ^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/pjit.py", line 140, in _run_python_pjit
+    out_flat, compiled, profiler, const_args = _pjit_call_impl_python(
+                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/pjit.py", line 1189, in _pjit_call_impl_python
+    return (compiled.unsafe_call(*computation.const_args, *args),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/profiler.py", line 384, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/interpreters/pxla.py", line 381, in __call__
+    results = self.xla_executable.execute_sharded(input_bufs, with_tokens=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jax.errors.JaxRuntimeError: INTERNAL: CpuCallback error calling callback: Traceback (most recent call last):
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 815, in _wrapped_callback
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 226, in _callback
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 95, in pure_callback_impl
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/jax/_src/callback.py", line 70, in __call__
+  File "/scratch/lct9592/conda_envs/constellaration/lib/python3.12/site-packages/equinox/_errors.py", line 88, in raises
+_EquinoxRuntimeError: The root is not contained in [lower, upper]
+
+
+--------------------
+An error occurred during the runtime of your JAX program! Unfortunately you do not appear to be using `equinox.filter_jit` (perhaps you are using `jax.jit` instead?) and so further information about the error cannot be displayed. (Probably you are seeing a very large but uninformative error message right now.) Please wrap your program with `equinox.filter_jit`.
+--------------------
+
